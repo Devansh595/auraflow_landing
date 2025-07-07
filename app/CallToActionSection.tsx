@@ -50,7 +50,7 @@ export default function CallToActionSection() {
           </button>
         </form>
         {error && <p className="text-red-500 mt-4">{error}</p>}
-        {submitted && !error && <p className="text-green-600 mt-4 font-semibold">Thank you for signing up! We'll be in touch soon.</p>}
+        {submitted && !error && <p className="text-green-600 mt-4 font-semibold">Thank you for signing up! We&apos;ll be in touch soon.</p>}
       </div>
     </section>
   );
