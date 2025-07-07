@@ -114,7 +114,7 @@ export default function PreOrderForm() {
 
       {submitted && (
         <p className="text-green-600 text-center mt-4 font-semibold">
-          Thank you for your pre-order! We'll be in touch soon.
+          Thank you for your pre-order! We&apos;ll be in touch soon.
         </p>
       )}
     </form>

@@ -11,7 +11,7 @@ interface TestimonialCardProps {
 export default function TestimonialCard({ quote, author, title, avatarSrc }: TestimonialCardProps) {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 sm:p-8 max-w-xs sm:max-w-sm w-full mx-auto">
-      <p className="italic text-base sm:text-lg text-gray-700 mb-4">"{quote}"</p>
+      <p className="italic text-base sm:text-lg text-gray-700 mb-4">&quot;{quote}&quot;</p>
       <div className="flex items-center mt-4">
         {avatarSrc && (
           <Image

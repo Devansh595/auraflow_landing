@@ -25,8 +25,12 @@ export default function CallToActionSection() {
   return (
     <section className="py-24 bg-gradient-to-b from-pink-50 via-purple-50 to-white">
       <div className="max-w-2xl mx-auto px-4 text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-800 drop-shadow-sm">Ready to Supercharge Your Workflow?</h2>
-        <p className="text-lg text-gray-700 mb-10">Sign up now to get early access and be the first to experience AuraFlow!</p>
+        <h2 className="text-5xl font-bold text-center text-white mb-4">
+          Ready to Experience True Calm?
+        </h2>
+        <p className="text-xl text-center text-purple-100 max-w-2xl mx-auto mb-12">
+          Join the AuraFlow revolution. Pre-order now and receive exclusive launch benefits.
+        </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto">
           <input
             type="email"
