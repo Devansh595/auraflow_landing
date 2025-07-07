@@ -29,7 +29,7 @@ export default function CallToActionSection() {
           Ready to Experience True Calm?
         </h2>
         <p className="text-xl text-center text-purple-100 max-w-2xl mx-auto mb-12">
-          Join the AuraFlow revolution. Pre-order now and receive exclusive launch benefits.
+          Join the AuraFlow revolution. Pre&#39;order now and receive exclusive launch benefits.
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto">
           <input
